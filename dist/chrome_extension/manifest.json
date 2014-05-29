@@ -29,9 +29,8 @@
   "web_accessible_resources": [
       "ui_overlay.js",
       "css/combo.css",
-      "css/checkmark.gif",
+      "images/checkmark.gif",
       "js/combo.js",
-      "js/modernizr-2.6.2.min.js",
-      "fonts/glyphicons-halflings-regular.woff"
+      "js/modernizr-2.6.2.min.js"
   ]
 }

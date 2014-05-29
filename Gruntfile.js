@@ -71,7 +71,7 @@ module.exports = function(grunt) {
 			dist_chrome_extension_images: {
 				expand: true,
 				cwd: 'src/images/',
-				src: '*',
+				src: 'checkmark.gif',
 				dest: 'dist/chrome_extension/images/',
 				filter: 'isFile'
 			},
