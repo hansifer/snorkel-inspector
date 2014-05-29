@@ -1,0 +1,5 @@
+Source: https://github.com/hansifer/bookmarklet-dab.js/blob/master/boilerplate/bookmarklet_hook.js
+
+Include below in an href attribute of an anchor tag [on a page] that a user can drag to their browser bookmark bar.
+
+javascript:(function()%7Bvar u="//hansifer.github.io/snorkel-inspector/dist/bookmarklet/ui_overlay.js",t=top.document,h=t.head%7C%7Ct.getElementsByTagName("head")[0]%7C%7Ct.documentElement,s=t.createElement("script");s.async=true;s.src=t.location.protocol=="file%3A"%26%26/%5E%5C/%5C//.test(u)%3F"http%3A"%2Bu%3Au;s.onload=s.onreadystatechange=function()%7Bif(!s.readyState%7C%7C/loaded%7Ccomplete/.test(s.readyState))%7Bs.onload=s.onreadystatechange=null;if(s.parentNode)s.parentNode.removeChild(s);s=null%7D%7D;h.insertBefore(s,h.firstChild)%7D())

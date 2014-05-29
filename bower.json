@@ -1,0 +1,19 @@
+{
+	"name": "snorkel-inspector",
+	"version": "1.0.0",
+	"main": "",
+	"dependencies": {
+	    "modernizr": ">=2.6.2",
+	    "jquery": ">=2.1.0",
+	    "jquery.scrollIntoView.js": ">=0.3",
+	    "bootstrap": ">=3.1.1",
+	    "underscore": ">=1.6.0",
+	    "dab.js": ">=0.1.0",
+	    "domDab.js": ">=0.1.0",
+	    "node-uuid-hansifer": ">=1.4.1",
+	    "browserDab.js": ">=0.1.0",
+	    "originEvents": ">=1.0.0",
+	    "snorkel": ">=1.0.0"
+	},
+	"ignore": ["docs", "test", "*.yml", "*.map"]
+}

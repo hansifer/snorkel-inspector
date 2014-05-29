@@ -1,0 +1,37 @@
+{
+  "version": "1.0.1",
+  "name": "Snorkel Inspector",
+  "description": "Provides a UI overlay to manage any page's snorkel data",
+  "default_locale": "en",
+  "minimum_chrome_version": "31",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": {
+      "19": "images/19.png",
+      "38": "images/38.png"
+    },
+    "default_title": "Toggle Snorkel Inspector"
+  },
+  "icons": {
+    "16": "images/16.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "background": {
+    "scripts": ["bg.js"],
+    "persistent": false
+  },
+  "permissions": [
+      "contextMenus",
+      "activeTab"
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "web_accessible_resources": [
+      "ui_overlay.js",
+      "css/combo.css",
+      "css/checkmark.gif",
+      "js/combo.js",
+      "js/modernizr-2.6.2.min.js",
+      "fonts/glyphicons-halflings-regular.woff"
+  ]
+}
